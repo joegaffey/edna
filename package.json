@@ -1,0 +1,21 @@
+{
+    "name": "edna",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "Event Driven Notifications Adapter",
+    "main": "index.js",
+    "scripts": {
+      "dev": "nodemon index.js",
+      "start": "node index.js"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.18.2",
+      "better-sse": "^0.12.0"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.1"
+    }
+  }
+  

@@ -1,0 +1,11 @@
+<pre id="timeEl"></pre>
+
+<script>
+    const timeEl = document.getElementById('timeEl');
+    const eventSource = new EventSource('/events');
+
+    eventSource.addEventListener('time', (event) => {
+        const {type, data} = event;
+        timeEl.innerText = data;
+    });
+</script>
